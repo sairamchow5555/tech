@@ -4,8 +4,9 @@ import './App.css';
 import { Layout } from 'antd';
 import AppHeader from './components/comman/Header';
 import AppHome from './views/home';
+import AppFooter from './components/comman/Footer';
 
-const { Header, Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <Content>
         <AppHome />
       </Content>
+      <Footer>
+        <AppFooter />
+      </Footer>
     </Layout>
   );
 }
