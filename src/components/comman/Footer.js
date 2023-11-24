@@ -1,5 +1,5 @@
 import React from 'react';
-import { BackTop } from 'antd';
+import { FloatButton } from 'antd';
 
 function AppFooter(){
     return(
@@ -17,9 +17,9 @@ function AppFooter(){
                     <li><a href="https://www.instagram.com/sairam_chowdary5555" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
                 </ul>
                 <div className="copyright">Copyright &copy; 2023 Tech</div>
-                <BackTop>
+                <FloatButton.BackTop>
                     <div className="goTop"><i className="fas fa-arrow-circle-up"></i></div>
-                </BackTop>
+                </FloatButton.BackTop>
             </div>
         </div>
     )
