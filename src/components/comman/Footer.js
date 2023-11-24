@@ -1,4 +1,5 @@
 import React from 'react';
+import { BackTop } from 'antd';
 
 function AppFooter(){
     return(
@@ -15,6 +16,10 @@ function AppFooter(){
                     <li><a href="https://www.twitter.com/sairamchow5555" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
                     <li><a href="https://www.instagram.com/sairam_chowdary5555" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
                 </ul>
+                <div className="copyright">Copyright &copy; 2023 Tech</div>
+                <BackTop>
+                    <div className="goTop"><i className="fas fa-arrow-circle-up"></i></div>
+                </BackTop>
             </div>
         </div>
     )
